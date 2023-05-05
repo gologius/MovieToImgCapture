@@ -1,0 +1,2 @@
+# MovieToImgCapture
+OpenCVだけで作成した簡易的な動画プレイヤーです。画面スクショも取れます
