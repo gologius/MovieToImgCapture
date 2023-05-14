@@ -145,11 +145,11 @@ class MovieToTimgCapture:
                 #描画のためのテキストリストを作成
                 logs = []
                 logs.append(f"Frame:{self.lookIndex}/{maxFrameCount}")
-                logs.append(f"a:<- d:-> s:saveimg space:play/pause q:quit")
+                logs.append(f"a:<< d:>> s:saveimg space:play/pause q:quit")
                 if self.playing:
-                    logs.append("Play")
+                    logs.append("Mode:play")
                 else:
-                    logs.append("Pause")
+                    logs.append("Mode:pause")
                   
                 if is_captured == True:
                     logs.append("Save Image !!")
